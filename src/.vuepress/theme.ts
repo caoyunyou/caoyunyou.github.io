@@ -5,18 +5,18 @@ import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
-
+  // 作者信息
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "曹云友",
+    url: "https://caoyunyou.github.io",
   },
-
+  // 图标设置
   iconAssets: "fontawesome-with-brands",
-
+  // 网站logo
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
-
+  // 仓库 点击首页的github图标会跳转到这个页面
+  repo: "caoyunyou/caoyunyou.github.io",
+  // 文件目录
   docsDir: "src",
 
   // 导航栏
@@ -26,57 +26,62 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "主题使用 <a href=\"https://theme-hope.vuejs.press/zh/\" target=\"_blank\">VuePress Theme Hope</a> | <a href=\"#\">关于网站</a>",
+  // 是否展示页脚
   displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    // 博客描述
+    description: "一个小卡拉米",
+    // 个人简介页面
     intro: "/intro.html",
+    // 媒体
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
+      // Baidu: "https://example.com",
+      // BiliBili: "https://example.com",
+      // Bitbucket: "https://example.com",
+      // Dingding: "https://example.com",
+      // Discord: "https://example.com",
+      // Dribbble: "https://example.com",
+      Email: "mailto:caoyunyou@foxmail.com",
+      // Evernote: "https://example.com",
+      // Facebook: "https://example.com",
+      // Flipboard: "https://example.com",
+      Gitee: "https://gitee.com/cao-yunyou",
+      GitHub: "https://github.com/caoyunyou",
+      // Gitlab: "https://example.com",
+      // Gmail: "mailto:info@example.com",
+      // Instagram: "https://example.com",
+      // Lark: "https://example.com",
+      // Lines: "https://example.com",
+      // Linkedin: "https://example.com",
+      // Pinterest: "https://example.com",
+      // Pocket: "https://example.com",
+      QQ: "http://wpa.qq.com/msgrd?v=3&uin=2714957825&site=qq&menu=yes",
+      // Qzone: "https://example.com",
+      // Reddit: "https://example.com",
+      // Rss: "https://example.com",
+      // Steam: "https://example.com",
+      // Twitter: "https://example.com",
+      Wechat: "weixin://contacts/profile/C15070383025",
+      // Weibo: "https://example.com",
+      // Whatsapp: "https://example.com",
+      // Youtube: "https://example.com",
+      // Zhihu: "https://example.com",
+      // MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
     },
   },
 
   // 加密配置
   encrypt: {
+    // 针对不同页面进行配置
     config: {
       "/demo/encrypt.html": ["1234"],
     },
   },
 
-  // 多语言配置
+  // 多语言配置 目前没有启用多语言
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },

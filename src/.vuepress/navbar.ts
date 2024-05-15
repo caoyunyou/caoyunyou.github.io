@@ -46,8 +46,26 @@ export default navbar([
     ],
   },
   {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+    text:"学习笔记",
+    icon:"book",
+    link:"/notes/"
+  }
+  // {
+  //   text: "学习笔记",
+  //   children: [
+  //     {
+  //       text: "Java",
+  //       children: [
+  //         {
+  //           text:"Java基础",
+  //           icon:"pen-to-square",
+  //           children:[
+  //             {text:"基础知识",icon:"pen-to-square",link:"/notes/java/basic/basic.md"}
+  //           ]
+  //         },
+  //
+  //       ],
+  //     },
+  //   ],
+  // },
 ]);
