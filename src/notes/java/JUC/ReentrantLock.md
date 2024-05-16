@@ -1,10 +1,9 @@
 ---
 title: "ReentrantLock"
 ---
-## 注意：
-
+::: warning 注意
 下面所有的描述都是基于 `JDK8`，后续版本可能有些改动
-
+:::
 
 
 ## 提要：
@@ -60,7 +59,22 @@ ReentrantLock 内部有一个私有的同步器`private final Sync sync;`，创�
 
 ### 公平和非公平同步器
 
-在了解创建锁之前，先了解以下其内部的实现。
+在了解创建锁之前，先了解一下其内部的实现。
+```mermaid
+flowchart TB
+Lock[Lock]
+ReentrantLock[ReentrantLock\n sync:Sync]
+Sync[Sync]
+AQS[AbstractQueuedSynchronizer]
+NonfairSync[NonfairSync]
+FairSync[FairSync]
+
+Lock-..-ReentrantLock
+ReentrantLock-->Sync
+Sync-->NonfairSync
+Sync-->FairSync
+Sync-..-AQS
+```
 
 
 
