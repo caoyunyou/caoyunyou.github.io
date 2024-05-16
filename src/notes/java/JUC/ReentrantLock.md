@@ -1,5 +1,6 @@
 ---
 title: "ReentrantLock"
+date: 2024-05-16
 ---
 ::: warning 注意
 下面所有的描述都是基于 `JDK8`，后续版本可能有些改动
