@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /logo.png
 heroText: 曹云友的博客
 heroFullScreen: true
 tagline: 一个小卡拉米

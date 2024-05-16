@@ -13,7 +13,8 @@ export default hopeTheme({
   // 图标设置
   iconAssets: "fontawesome-with-brands",
   // 网站logo
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.png",
   // 仓库 点击首页的github图标会跳转到这个页面
   repo: "caoyunyou/caoyunyou.github.io",
   // 文件目录
