@@ -6,7 +6,7 @@ title: 博客
 heroImage: /logo.png
 heroText: 曹云友的博客
 heroFullScreen: true
-tagline: 一个小卡拉米
+tagline: 骐骥一跃，不能十步；驽马十驾，功在不舍。
 projects:
   - icon: project
     name: 项目名称

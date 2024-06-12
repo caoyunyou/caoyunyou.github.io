@@ -34,7 +34,7 @@ export default hopeTheme({
   // 博客相关
   blog: {
     // 博客描述
-    description: "一个小卡拉米",
+    description: "骐骥一跃，不能十步；驽马十驾，功在不舍。",
     // 个人简介页面
     intro: "/intro.html",
     // 媒体
